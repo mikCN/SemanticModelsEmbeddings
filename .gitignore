@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (usually large)
+data/*.xlsx
+data/*.csv
+data/*.json
+data/*.pkl
+data/*.npy
+data/*.h5
+data/*.hdf5
+
+# Model files (usually very large)
+models/
+*.bin
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+
+# Embeddings and outputs (large files)
+outputs/
+*.npy
+*.pkl
+*.npz
+
+# Logs
+log/
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Large model files (if downloaded)
+*.bin.gz
+*.tar.gz
+GoogleNews-vectors-negative300.bin.gz
+
+# Environment variables
+.env
+.env.local
+
