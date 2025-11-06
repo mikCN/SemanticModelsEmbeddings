@@ -29,8 +29,7 @@ SemanticModelsEmbeddings/
 ├── data/                            # Dataset (not included in repo - too large)
 ├── outputs/                         # Generated embeddings (not included - use .pkl file)
 ├── models/                          # Pre-trained models (not included)
-├── README.md                        # This file
-└── INFORMAL_REPORT.md               # Informal report explaining the work
+└── README.md                        # This file
 ```
 
 ## Getting Started
