@@ -8,6 +8,7 @@ env/
 venv/
 ENV/
 .venv
+INFORMAL_REPORT.md
 
 # Jupyter Notebook
 .ipynb_checkpoints/
