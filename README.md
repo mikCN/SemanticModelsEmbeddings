@@ -79,7 +79,7 @@ word2vec_how = all_embeddings['word2vec']['how']
 
 The complete embeddings dictionary (`all_embeddings_dict_semanticModels.pkl`) is available on Google Drive:
 
-**[Download Embeddings Dictionary](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[Download Embeddings Dictionary](https://drive.google.com/file/d/1sVlJxHC-Y1exqyfDDp7BTpt1abmoanNP/view?usp=share_link)**
 
 After downloading, place it in the `outputs/` folder and load it as shown above.
 
