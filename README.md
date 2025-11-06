@@ -61,7 +61,9 @@ SemanticModelsEmbeddings/
 
 ### Loading Embeddings
 
-After running the notebook, load all embeddings using:
+After running the notebook, you can load embeddings in two ways:
+
+#### Option 1: Load from local file (after running the notebook)
 
 ```python
 import pickle
@@ -73,6 +75,14 @@ with open('outputs/all_embeddings_dict.pkl', 'rb') as f:
 bert_what = all_embeddings['bert']['what']
 word2vec_how = all_embeddings['word2vec']['how']
 ```
+
+#### Option 2: Download pre-computed embeddings from Google Drive
+
+The complete embeddings dictionary (`all_embeddings_dict_semanticModels.pkl`) is available on Google Drive:
+
+**[Download Embeddings Dictionary](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+
+After downloading, place it in the `outputs/` folder and load it as shown above.
 
 ## Key Features
 
@@ -92,7 +102,8 @@ See the notebook for detailed explanations!
 
 All embeddings are saved in the `outputs/` directory:
 - Individual `.npy` files for each model and text type
-- `all_embeddings_dict.pkl` - Complete dictionary with all embeddings
+- `all_embeddings_dict.pkl` - Complete dictionary with all embeddings (created when you run the notebook)
+- `all_embeddings_dict_semanticModels.pkl` - Pre-computed embeddings dictionary (available on [Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE))
 
 ## Notes
 
