@@ -34,10 +34,18 @@ models/
 *.safetensors
 
 # Embeddings and outputs (large files)
-outputs/
-*.npy
-*.pkl
-*.npz
+# Ignore large data files but allow plots
+outputs/**/*.npy
+outputs/**/*.pkl
+outputs/**/*.npz
+outputs/**/*.hdf5
+outputs/**/*.h5
+outputs/embeddings_*/
+outputs/rdms/*.hdf5
+# Allow plots (PNG and PDF)
+!outputs/**/*.png
+!outputs/**/*.pdf
+!outputs/rdms/plots/
 
 # Logs
 log/
