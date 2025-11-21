@@ -15,13 +15,15 @@ INFORMAL_REPORT.md
 *.ipynb_checkpoints
 
 # Data files (usually large)
-data/*.xlsx
 data/*.csv
 data/*.json
 data/*.pkl
 data/*.npy
 data/*.h5
 data/*.hdf5
+# Allow the main Excel file with semantic labels (exception must come after the pattern)
+data/*.xlsx
+!data/sem_labels_common_unique_sets_v03.xlsx
 
 # Model files (usually very large)
 models/
